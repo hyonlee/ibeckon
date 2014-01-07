@@ -11,18 +11,12 @@ alias beacon117='cd ~/bluez/bluez-5.11 && sudo tools/hcitool -i hci0 cmd 0x08 0x
 alias beacon118='cd ~/bluez/bluez-5.11 && sudo tools/hcitool -i hci0 cmd 0x08 0x0008 1E 02 01 1A 1A FF 4C 00 02 15 C3 85 CA 83 A8 AA 49 D2 8C 80 3E 9A 47 09 22 A2 00 01 00 08 C8 00 && cd ~'
 alias beacon119='cd ~/bluez/bluez-5.11 && sudo tools/hcitool -i hci0 cmd 0x08 0x0008 1E 02 01 1A 1A FF 4C 00 02 15 C3 85 CA 83 A8 AA 49 D2 8C 80 3E 9A 47 09 22 A2 00 01 00 09 C8 00 && cd ~'
 
-
-
-
-
-
 alias beacon121='cd ~/bluez/bluez-5.11 && sudo tools/hcitool -i hci0 cmd 0x08 0x0008 1E 02 01 1A 1A FF 4C 00 02 15 C3 85 CA 83 A8 AA 49 D2 8C 80 3E 9A 47 09 22 A2 00 02 00 01 C8 00 && cd ~'
 alias beacon122='cd ~/bluez/bluez-5.11 && sudo tools/hcitool -i hci0 cmd 0x08 0x0008 1E 02 01 1A 1A FF 4C 00 02 15 C3 85 CA 83 A8 AA 49 D2 8C 80 3E 9A 47 09 22 A2 00 02 00 02 C8 00 && cd ~'
 alias beacon123='cd ~/bluez/bluez-5.11 && sudo tools/hcitool -i hci0 cmd 0x08 0x0008 1E 02 01 1A 1A FF 4C 00 02 15 C3 85 CA 83 A8 AA 49 D2 8C 80 3E 9A 47 09 22 A2 00 02 00 03 C8 00 && cd ~'
 alias beacon131='cd ~/bluez/bluez-5.11 && sudo tools/hcitool -i hci0 cmd 0x08 0x0008 1E 02 01 1A 1A FF 4C 00 02 15 C3 85 CA 83 A8 AA 49 D2 8C 80 3E 9A 47 09 22 A2 00 03 00 01 C8 00 && cd ~'
 alias beacon132='cd ~/bluez/bluez-5.11 && sudo tools/hcitool -i hci0 cmd 0x08 0x0008 1E 02 01 1A 1A FF 4C 00 02 15 C3 85 CA 83 A8 AA 49 D2 8C 80 3E 9A 47 09 22 A2 00 03 00 02 C8 00 && cd ~'
 alias beacon133='cd ~/bluez/bluez-5.11 && sudo tools/hcitool -i hci0 cmd 0x08 0x0008 1E 02 01 1A 1A FF 4C 00 02 15 C3 85 CA 83 A8 AA 49 D2 8C 80 3E 9A 47 09 22 A2 00 03 00 03 C8 00 && cd ~'
-
 
 alias beacon211='cd ~/bluez/bluez-5.11 && sudo tools/hcitool -i hci0 cmd 0x08 0x0008 1E 02 01 1A 1A FF 4C 00 02 15 E8 D3 EF 7C 37 69 43 F5 BD DF 39 36 D1 C7 A6 A9 00 01 00 01 C8 00 && cd ~'
 alias beacon212='cd ~/bluez/bluez-5.11 && sudo tools/hcitool -i hci0 cmd 0x08 0x0008 1E 02 01 1A 1A FF 4C 00 02 15 E8 D3 EF 7C 37 69 43 F5 BD DF 39 36 D1 C7 A6 A9 00 01 00 02 C8 00 && cd ~'
@@ -38,3 +32,8 @@ alias beacon411='cd ~/bluez/bluez-5.11 && sudo tools/hcitool -i hci0 cmd 0x08 0x
 alias beacon412='cd ~/bluez/bluez-5.11 && sudo tools/hcitool -i hci0 cmd 0x08 0x0008 1E 02 01 1A 1A FF 4C 00 02 15 CB BF 64 83 7D C3 45 08 95 30 83 6B AE 17 E4 0E 00 01 00 02 C8 00 && cd ~'
 alias beacon421='cd ~/bluez/bluez-5.11 && sudo tools/hcitool -i hci0 cmd 0x08 0x0008 1E 02 01 1A 1A FF 4C 00 02 15 CB BF 64 83 7D C3 45 08 95 30 83 6B AE 17 E4 0E 00 02 00 01 C8 00 && cd ~'
 alias beacon422='cd ~/bluez/bluez-5.11 && sudo tools/hcitool -i hci0 cmd 0x08 0x0008 1E 02 01 1A 1A FF 4C 00 02 15 CB BF 64 83 7D C3 45 08 95 30 83 6B AE 17 E4 0E 00 02 00 02 C8 00 && cd ~'
+
+alias garage='cd ~/bluez/bluez-5.11 && sudo tools/hcitool -i hci0 cmd 0x08 0x0008 1E 02 01 1A 1A FF 4C 00 02 15 CB BF 64 83 7D C3 45 08 95 30 83 6B AE 17 E4 0E 00 00 00 00 C8 00 && cd ~'
+alias juice='cd ~/bluez/bluez-5.11 && sudo tools/hcitool -i hci0 cmd 0x08 0x0008 1E 02 01 1A 1A FF 4C 00 02 15 6C BF FB 26 0E E0 4F B8 8D F4 44 0B 04 C7 6F DA 00 00 00 00 C8 00 && cd ~'
+alias candy='cd ~/bluez/bluez-5.11 && sudo tools/hcitool -i hci0 cmd 0x08 0x0008 1E 02 01 1A 1A FF 4C 00 02 15 74 27 8B DA B6 44 45 20 8F 0C 72 0E AF 05 99 35 00 00 00 00 C8 00 && cd ~'
+alias cashier='cd ~/bluez/bluez-5.11 && sudo tools/hcitool -i hci0 cmd 0x08 0x0008 1E 02 01 1A 1A FF 4C 00 02 15 C3 85 CA 83 A8 AA 49 D2 8C 80 3E 9A 47 09 22 A2 00 00 00 00 C8 00 && cd ~'
