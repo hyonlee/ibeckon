@@ -1,4 +1,4 @@
-alias bt='cd ~/bluez/bluez-5.11 && sudo tools/hciconfig hci0 up && sudo tools/hciconfig hci0 leadv && sudo tools/hciconfig hci0 noscan && tools/hciconfig && cd ~'
+alias bt='cd ~/bluez/bluez-5.11 && sudo tools/hciconfig hci0 up && sudo tools/hciconfig hci0 leadv 3 && sudo tools/hciconfig hci0 noscan && tools/hciconfig && cd ~'
 alias ibeacon='cd ~/bluez/bluez-5.11 && sudo tools/hcitool -i hci0 cmd 0x08 0x0008 1E 02 01 1A 1A FF 4C 00 02 15 E2 0A 39 F4 73 F5 4B C4 A1 2F 17 D1 AD 07 A9 61 00 00 00 00 C8 00 && cd ~'
 
 alias beacon111='cd ~/bluez/bluez-5.11 && sudo tools/hcitool -i hci0 cmd 0x08 0x0008 1E 02 01 1A 1A FF 4C 00 02 15 C3 85 CA 83 A8 AA 49 D2 8C 80 3E 9A 47 09 22 A2 00 01 00 01 C8 00 && cd ~'
